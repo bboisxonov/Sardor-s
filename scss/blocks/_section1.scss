@@ -1,0 +1,46 @@
+.section1{
+    position: relative;
+
+    background: url(../img/hero.png) no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    width: 1260px;
+    height: 600px;
+
+    &_info{
+        position: absolute;
+        bottom: 0;
+        width: 445px;
+        height: 354px;
+        background: #FAFAFA;
+
+        &_title{
+            width: 390px;
+            font-family: Ibarra Real Nova;
+            font-weight: bold;
+            font-size: 50px;
+            line-height: 50px;
+            letter-spacing: -0.446429px;
+            color: #33323D;
+        }
+        &_btn{
+            border: 2px solid #203A4C;
+            background: #203A4C;
+            text-decoration: none;
+            font-family: Public Sans;
+            font-size: 12px;
+            line-height: 14px;
+            text-align: center;
+            letter-spacing: 2px;
+            color: #FFFFFF;
+            padding: 17px;
+            &:hover{
+                background-color: white;
+                color: #203A4C;
+            }
+            &_logo{
+                margin-right: 48px;
+            }
+        }
+    }
+}

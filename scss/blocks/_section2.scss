@@ -1,0 +1,41 @@
+.section2{
+    margin-top: 116px;
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+    &_left{
+        background: url(../img/section2.png) no-repeat;
+        background-position: center;
+        background-size: 100% 100%;
+        width: 540px;
+        height: 600px;
+    }
+    &_right{
+        padding-top: 68px;
+        padding-bottom: 60px;
+        border-top: 2px solid #DCDCDE ;
+        border-bottom: 2px solid #DCDCDE ;
+        margin-left: 150px;
+        &_title{
+            margin: 0;
+            font-family: Ibarra Real Nova;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 40px;
+            line-height: 42px;
+            letter-spacing: -0.357143px;
+            color: #33323D;
+        }
+        &_desc{
+            width: 350px;
+            opacity: 0.8;
+            font-family: Public Sans;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 30px;
+            color: #33323D;
+            margin-bottom: 25px;
+        }
+    }
+}

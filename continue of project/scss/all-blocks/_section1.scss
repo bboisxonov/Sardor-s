@@ -1,0 +1,47 @@
+.section1{
+    &_left{
+        background: url(../img/section1.png) no-repeat;
+        background-position: center;
+        background-size: 100%;
+        width: 540px;
+        height: 500px;
+    }
+    &_right{
+        border-top: 1px solid #CFCFD1;
+        border-bottom: 1px solid #CFCFD1;
+        padding: 77px 0;
+        margin-left: 150px;
+        padding-left: 50px;
+        &_title{
+            margin-bottom: 30px;
+            font-size: 45px;
+        }
+        &_desc{
+            width: 440px;
+            font-family: Public Sans;
+            opacity: .8;
+            margin-bottom: 24px;
+            font-size: 16px;
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .section1{
+        &_right{
+            border-top: 1px solid #CFCFD1;
+            border-bottom: 1px solid #CFCFD1;
+            padding: 77px 0;
+            margin-top: 50px;
+            margin-left: 0px;
+            padding-left: 0px;
+            &_title{
+                font-size: 50px;
+            }
+            &_desc{
+                width: 435px;
+                font-size: 25px;
+            }
+        }
+    }
+}

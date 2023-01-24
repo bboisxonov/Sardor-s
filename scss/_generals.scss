@@ -1,0 +1,31 @@
+html{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Public Sans, sans-serif;
+    font-family: Ibarra Real Nova, serif;
+    margin: 0;
+    padding: 0;
+}
+
+.btn{
+    border: 1px solid #36353f;
+    box-sizing: border-box;
+
+    font-family: Public Sans;
+    text-decoration: none;
+    padding: 17px 35px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #33323D;
+}
+
+.btn:hover{
+    background-color: #33323D;
+    color: white;
+}

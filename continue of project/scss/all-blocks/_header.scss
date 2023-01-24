@@ -1,0 +1,22 @@
+.navv{
+    &_logo{
+        display: block;
+    }
+    &bar{
+        display: flex;
+        &_item{
+            list-style: none;
+            &_link{
+                font-family: Public Sans;
+                font-size: 12px;
+                line-height: 14px;
+                letter-spacing: 2px;
+                font-weight: normal;
+                color: #33323D;
+            }
+            &_link:hover{
+                color: #5FB4A2;
+            }
+        }
+    }
+}

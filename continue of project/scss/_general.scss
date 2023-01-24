@@ -1,0 +1,29 @@
+html{
+    box-sizing: border-box;
+    background: #F2F2F2;
+    margin: 0;
+}
+body{
+    margin: 0!important;
+}
+.simple_btn{
+    border: 1px solid #33323D;
+    box-sizing: border-box;
+    background-color: white;
+
+    font-family: Public Sans;
+    text-decoration: none;
+    padding: 17px 35px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #2a2931;
+}
+
+.simple_btn:hover{
+    background-color: #33323D;
+    color: white;
+}

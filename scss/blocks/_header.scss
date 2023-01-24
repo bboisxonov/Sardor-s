@@ -1,0 +1,31 @@
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &_logo{
+        display: block;
+    }
+
+    &bar{
+        display: flex;
+        &_item{
+            list-style: none;
+
+            &_link{
+                text-decoration: none;
+                font-family: Public Sans;
+                font-size: 12px;
+                line-height: 14px;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+                color: #33323D;
+                padding: 0 21px;
+                &:hover{
+                    opacity: .6;
+                }
+            }
+        }
+    }
+
+}
