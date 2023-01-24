@@ -11,7 +11,7 @@ body {
 }
 
 .btn {
-  border: 1px solid #33323D;
+  border: 1px solid #36353f;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-family: Public Sans;
@@ -21,7 +21,7 @@ body {
   font-weight: normal;
   font-size: 12px;
   line-height: 14px;
-  letter-spacing: 2px;
+  letter-spacing: 3px;
   text-transform: uppercase;
   color: #33323D;
 }
@@ -143,7 +143,8 @@ body {
   background-position: center;
   background-size: 100% 100%;
   width: 540px;
-  height: 600px;
+  height: 550px;
+  border-radius: 30px;
 }
 
 .section2_right {
